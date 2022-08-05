@@ -1,27 +1,20 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
 body {
-    background: lightblue;
+    background: #1a3e7a;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Gotham", sans-serif;
     font-size: 15px;
     letter-spacing: 2px;
     }
-.company-logo {
+.hero-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    height: auto;
-    max-width: 300px;
-    }
-.company-logo-top {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+    margin-top: 90px;
     margin-bottom: 50px;
     height: auto;
-    max-width: 100px;
-    border-radius: 50%;
+    max-width: 200px;
     }
 .company-name {
     text-align: center;
@@ -31,27 +24,45 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid #fff;
+    background-color: #fff;
     border-width: 2px;
     width: 290px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 40px;
+    border-radius: 8px;
     }
 a {
     text-decoration: none;
-    color: white;
+    color: #1a3e7a;
     transition: color 1s;
+    font-size: 25px;
+    font-weight: bold;
     }
 .bottom-text {
     text-align: center;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     }
 a:hover {
-    color: #006994;
-    background: #fff;
+    color: #fff;
+    background: #1a3e7a;
+    }
+.footer {
+    position: fixed;
+    bottom: 60px;
+    text-align: center;
+    width: 100%;
+}
+.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    width: 100%;
     }
 
