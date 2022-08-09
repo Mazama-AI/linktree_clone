@@ -104,8 +104,6 @@ a {
     transition: color 1s;
     font-size: 25px;
     font-weight: bold;
-    /* height: 100%;
-    width: 100%; */
     position: relative;
     text-align: center;
     padding: 20px;
@@ -155,17 +153,8 @@ a:hover {
     width: 100%;
 }
 
-/* #container {
-    position: relative;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 40px;
-} */
-
 /* Small devices (phones, 464px and down) */
-@media (min-width: 50px) and (max-width: 464px) {
+@media only screen and (max-width: 464px) {
     a {
         width: 275px;
         height: 40px;
