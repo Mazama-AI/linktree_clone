@@ -22,26 +22,30 @@ body {
     padding: 30px;
 }
 
-.links {
-    text-decoration: none;
-    color: #1a3e7a;
-    transition: color 1s;
+.btn {
     font-size: 25px;
     font-weight: bold;
     position: relative;
     text-align: center;
     padding: 20px;
-    background-color: #fff;
-    border: 2px solid #fff;
     display: block;
-    border-radius: 8px 8px 8px 8px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: #1a3e7a;
+    transition: color 1s;
+}
 
-.links:hover {
+.left {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+a:hover {
     color: #fff;
     background: #1a3e7a;
 }
@@ -65,25 +69,51 @@ body {
 
 /* Small devices */
 @media only screen and (max-width: 464px) {
-    .links {
+    .btn {
+        background-image: url(images/Ace-Linktree_mobile_UP.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
         width: 275px;
         height: 40px;
+    }
+    .btn:hover, .btn:hover a {
+        background-image: url(images/Ace-Linktree_mobile_HOVER.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: #fff;
+        background: #1a3e7a;
     }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 751px) {
-    .links {
+    .btn {
+        background-image: url(images/Ace-Linktree_tablet_UP.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
         width: 400px;
         height: 40px;
+    }
+    .btn:hover {
+        background-image: url(images/Ace-Linktree_tablet_HOVER.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 
 /* Large devices */
 @media only screen and (min-width: 1024px) {
-    .links {
+    .btn {
+        background-image: url(images/Ace-Linktree_Large-tablet_UP.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
         width: 650px;
         height: 40px;
+    }
+    .btn:hover {
+        background-image: url(images/Ace-Linktree_large-tablet-HOVER.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 
