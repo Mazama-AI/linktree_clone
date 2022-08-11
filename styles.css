@@ -14,7 +14,7 @@ body {
     margin-top: 90px;
     margin-bottom: 50px;
     height: auto;
-    max-width: 200px;
+    width: 200px;
 }
 
 .company-name {
@@ -73,15 +73,13 @@ a:hover {
         background-image: url(images/Ace-Linktree_mobile_UP.svg);
         background-size: 100%;
         background-repeat: no-repeat;
-        width: 275px;
-        height: 40px;
+        width: 276px;
+        height: 45px;
     }
     .btn:hover, .btn:hover a {
         background-image: url(images/Ace-Linktree_mobile_HOVER.svg);
         background-size: 100%;
         background-repeat: no-repeat;
-        color: #fff;
-        background: #1a3e7a;
     }
 }
 
@@ -92,7 +90,7 @@ a:hover {
         background-size: 100%;
         background-repeat: no-repeat;
         width: 400px;
-        height: 40px;
+        height: 45px;
     }
     .btn:hover {
         background-image: url(images/Ace-Linktree_tablet_HOVER.svg);
@@ -108,7 +106,7 @@ a:hover {
         background-size: 100%;
         background-repeat: no-repeat;
         width: 650px;
-        height: 40px;
+        height: 45px;
     }
     .btn:hover {
         background-image: url(images/Ace-Linktree_large-tablet-HOVER.svg);
