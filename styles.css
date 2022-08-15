@@ -70,8 +70,8 @@ a:hover {
 /* Small devices */
 @media screen and (max-width: 464px) {
     .hero-logo {
-        margin-top: 7%;
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     .footer {
         bottom: 5%;
