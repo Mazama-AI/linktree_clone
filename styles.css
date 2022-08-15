@@ -69,10 +69,18 @@ a:hover {
 
 /* Small devices */
 @media screen and (max-width: 464px) {
+    .hero-logo {
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+    .footer {
+        bottom: 5%;
+    }
     .btn {
         background-image: url(images/Ace-Linktree_mobile_UP.svg);
         background-size: 100%;
         background-repeat: no-repeat;
+        margin-bottom: 5%;
         width: 276px;
         height: 45px;
     }
